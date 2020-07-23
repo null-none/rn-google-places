@@ -17,7 +17,7 @@ yarn add rn-google-places
 To use it, just import it directly into your components
 
 ```js
-import AutocompletePlaces from 'rn-google-places'
+import { AutocompletePlaces } from 'rn-google-places'
 ```
 
 ## Example
@@ -27,13 +27,13 @@ The most basic example of this module is to use it like this :
 ```js
 import React from 'react'
 import { View, Button } from 'react-native'
-import AutocompletePlaces from 'rn-google-places'
+import { AutocompletePlaces } from 'rn-google-places'
 
 
 const Example = (props = {}) => (
   <View>
     <AutocompletePlaces
-      key="api key"
+      apiKey="api key"
       visible={true}
       place={(result) => {
         console.log(result);

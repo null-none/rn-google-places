@@ -48,7 +48,7 @@ export class AutocompletePlaces extends Component{
               this.props.place(details);
             }}
             query={{
-              key: this.props.key,
+              key: this.props.apiKey,
               types: "geocode",
               language: "en",
             }}
