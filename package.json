@@ -1,6 +1,6 @@
 {
     "name": "rn-google-places",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Google Places autocomplete component for iOS and Android React-Native apps",
     "main": "index.js",
     "scripts": {

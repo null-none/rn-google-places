@@ -34,6 +34,7 @@ const Example = (props = {}) => (
   <View>
     <AutocompletePlaces
       key="api key"
+      visible={true}
       place={(result) => {
         console.log(result);
       }}
