@@ -1,0 +1,31 @@
+{
+    "name": "rn-google-places",
+    "version": "0.0.1",
+    "description": "Google Places autocomplete component for iOS and Android React-Native apps",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "https",
+      "url": "https://github.com/null-none/rn-google-places"
+    },
+    "keywords": [
+      "react",
+      "native",
+      "react native",
+      "google places",
+      "googple maps",
+      "places"
+    ],
+    "author": "Dmitry Kalinin",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/null-none/rn-google-places/issues"
+    },
+    "dependencies": {
+      "react-native": "^0.62.2",
+      "react-native-modals": "^0.19.9",
+      "react-native-google-places-autocomplete": "^1.8.0"
+    }
+  }
