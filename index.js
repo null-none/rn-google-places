@@ -49,7 +49,7 @@ export class AutocompletePlaces extends Component{
             }}
             query={{
               key: this.props.apiKey,
-              types: "geocode",
+              types: "locality",
               language: "en",
             }}
             styles={{
